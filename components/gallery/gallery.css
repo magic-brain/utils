@@ -1,0 +1,25 @@
+.gallery_wrapper {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0rem;
+}
+
+
+.img_gal {
+    border-radius: 8px !important;
+}
+
+.swiper-slide {
+    overflow: hidden !important;
+    border-radius: 8px !important;
+}
+
+.gallery_wrapper > .title {
+    color: #333333;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-bottom: 1.2rem;
+}
