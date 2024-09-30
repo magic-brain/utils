@@ -1,0 +1,123 @@
+.hero_wrapper {
+    width: 100%;
+    height: 85vh;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    
+}   
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-prev, 
+.swiper-button-next {
+  background-color: rgba(100, 100, 100, 0.296);
+  width: 3rem !important;
+  height: 3rem !important;
+  border-radius: 50px;
+  color: white !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  transition: 0.3s;
+}
+
+.swiper-button-prev{
+  left: 30px !important;
+}
+
+.swiper-button-next{
+  right: 30px !important;
+}
+
+@media screen and (max-width: 500px) {
+
+  .swiper-button-prev, 
+  .swiper-button-next {
+    background-color: rgba(100, 100, 100, 0.296);
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    border-radius: 50px;
+    color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    transition: 0.3s;
+  }
+
+  .swiper-button-prev:hover {
+    background-color: rgba(100, 100, 100, 0.296) !important;
+  }
+
+  .swiper-button-next:hover {
+    background-color: rgba(100, 100, 100, 0.296) !important;
+  }
+  
+  .swiper-button-prev{
+    left: 10px !important;
+  }
+  
+  .swiper-button-next{
+    right: 10px !important;
+  }
+  
+}
+
+
+.swiper-button-prev:hover {
+  background-color: rgba(141, 141, 141, 0.612);
+}
+
+.swiper-button-next:hover {
+  background-color: rgba(141, 141, 141, 0.612);
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 1.2rem !important;
+  color: white !important;
+}
+
+@media screen and (max-width: 1000px) {
+  .hero_wrapper {
+    width: 100%;
+    height: 60vh;
+    border-radius: 8px;
+    overflow: hidden;
+}
+}
+
+@media screen and (max-width: 500px) {
+  .hero_wrapper {
+    width: 100%;
+    height: 40vh;
+    border-radius: 8px;
+    overflow: hidden;
+}
+}
+
+@media screen and (max-width: 500px) {
+  .hero_wrapper {
+    width: 100%;
+    height: 30vh;
+    border-radius: 8px;
+    overflow: hidden;
+}
+}
